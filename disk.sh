@@ -1,4 +1,5 @@
 #!/bin/bash
+# /dev/dopehosting = https://github.com/systemroot/LVM-VolumeGroup-Virtualizor
 
 lvcreate -L 500G -n docker /dev/dopehosting
 mkdir /docker
