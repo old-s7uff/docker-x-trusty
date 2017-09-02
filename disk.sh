@@ -11,6 +11,7 @@ mkfs.btrfs -f /dev/dopehosting/docker
 mount -t btrfs /dev/dopehosting/docker /docker
 rm -Rf /etc/default/docker
 cd /etc/default; wget https://raw.githubusercontent.com/systemroot/docker-x-trusty/master/etc/default/docker
+mkdir -p /docker/tmX/bigdrive/docker-tmp
 
 service docker start
 docker info
