@@ -8,4 +8,4 @@ DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4 -g /docker -s btrfs"
 #export http_proxy="http://127.0.0.1:3128/"
 
 # This is also a handy place to tweak where Docker's temporary files go.
-export TMPDIR="/mnt/bigdrive/docker-tmp"
+export TMPDIR="/docker/tmX/bigdrive/docker-tmp"
